@@ -8,7 +8,7 @@ export const Food = () => {
       <a className="ProjectTitle">
         <span>Online Food Ordering</span>
       </a>
-      <h2>Unity</h2>
+      <h2>Web</h2>
       <div className="des">
         <video controls muted>
           <source src={food} type="video/mp4"/>
