@@ -151,23 +151,6 @@
 }
 
 @media  screen and (max-width: 500px) {
-    .scrollDown {
-        bottom: 0.5rem;
-    }
-
-    .scrollDown p {
-        font-size: 0.6rem;
-        transform: translateY(40%);
-    }
-
-    .arrow {
-        border-top: 5px solid #757575;
-    }
-
-    .bg {
-        width: 100vw - 10rem;
-    }
-
     .Quote{
         display: none;
     }
