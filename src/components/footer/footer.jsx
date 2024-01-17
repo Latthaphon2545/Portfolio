@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2022 Latthaphon</p>
+        <p>&copy; 2022 | Latthaphon</p>
         <div className="social-links">
           <a href="https://web.facebook.com/lattapon.games/" target="_blank">
             <img
