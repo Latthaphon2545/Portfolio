@@ -19,10 +19,6 @@ export const Project1 = () => {
         </p>
       </div>
       <br></br>
-      <div className="role">
-        <h3>My Role</h3>
-        <p>......</p>
-      </div>
     </div>
   )
 }
