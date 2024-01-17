@@ -168,21 +168,7 @@
         width: 100vw - 10rem;
     }
 
-    .introContainer h1 {
-        font-size: 1.5rem;
-    }
-
-    .introContainer h2 {
-        font-size: 1rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .introContainer p {
-        font-size: 0.8rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .introContainer {
-        padding: 1rem;
+    .Quote{
+        display: none;
     }
 }
