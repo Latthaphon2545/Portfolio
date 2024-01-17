@@ -1,0 +1,89 @@
+/* contact.css */
+
+#contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.titleContact {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ff0000;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.titleContact span {
+    border-bottom: 2px solid #ff0000;
+}
+
+.desContact p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #818181;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #ff0000;
+    border: none;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+/* contactLink.css */
+
+.contactLink {
+    text-align: center;
+    padding: 40px;
+}
+
+.link {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: auto;
+    margin: 30px 20px 10px 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.2);
+}
+

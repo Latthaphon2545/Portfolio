@@ -1,0 +1,131 @@
+/* Project1.css */
+
+.Project {
+    text-align: center;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.15);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.ProjectTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ff0000;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.ProjectTitle span {
+    border-bottom: 2px solid red;
+}
+
+.Project h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.des img,video {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #b3b1b1;
+}
+
+.role h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.backHome {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.backHome a {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.detail {
+    margin-top: 30px;
+    /* Adjust as needed */
+}
+
+.detail ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.detail a {
+    margin: 0 10px;
+    /* Adjust as needed for spacing between buttons */
+}
+
+.detail button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.detail button:hover {
+    background-color: #cc0000;
+}
+
+@media screen and (max-width: 720px) {
+    .Project {
+        padding: 10px;
+    }
+
+    .ProjectTitle {
+        font-size: 1.5rem;
+    }
+
+    .Project h2 {
+        font-size: 1rem;
+    }
+
+    .Project img,video {
+        max-width: 50%;
+    }
+
+    .Project p {
+        font-size: 0.8rem;
+    }
+
+    .detail{
+        margin-top: 20px;
+    }
+
+    .detail button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+
+    .role h3{
+        font-size: 1rem;
+    }
+}

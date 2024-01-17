@@ -1,0 +1,123 @@
+/* skills.css */
+
+#skills {
+    background-color: #000000;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.skillTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ff0000;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.skillTitle span {
+    border-bottom: 2px solid red;
+}
+
+.skillSubtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.skillsBars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skillBar {
+    background-color: rgb(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* .skillBar:hover {
+    transform: translateY(-10px);
+} */
+
+.skillBarImg {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.skillBarTxet h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.skillBarTxet p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #666;
+}
+
+@media screen and (max-width: 720px) {
+    .skillTitle {
+        font-size: 1.5rem;
+    }
+
+    .skillSubtitle {
+        font-size: 1rem;
+    }
+
+    .skillBar {
+        width: 150px;
+    }
+
+    .skillBarImg{
+        width: 50%;
+        height: auto;
+    }
+
+    .skillBarTxet h2{
+        font-size: 1.2rem;
+    }
+
+    .skillBarTxet p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillTitle {
+        font-size: 2rem;
+    }
+
+    .skillSubtitle {
+        font-size: 0.9rem;
+    }
+
+    .skillBar {
+        width: 100px;
+    }
+
+    .skillBarImg{
+        width: 70%;
+        height: auto;
+    }
+
+    .skillBarTxet h2 {
+        font-size: 1rem;
+    }
+
+    .skillBarTxet p{
+        font-size: 0.6rem;
+    }
+}
