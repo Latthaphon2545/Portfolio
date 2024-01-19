@@ -34,7 +34,7 @@ export const Intro = () => {
       offset={-40}
       duration={800}
       >
-        <p>Project</p>
+        <p>Project Click !!!</p>
         <div className="arrow"></div>
       </Link>
     </section>
