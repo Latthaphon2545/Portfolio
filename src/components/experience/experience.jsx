@@ -39,7 +39,7 @@ const Experience = () => {
   return (
     <section className="experiencePage">
       <a className="exTitle">
-        <span>Experience</span>
+        <span>Experiences</span>
       </a>
 
       <div className="experiences">
