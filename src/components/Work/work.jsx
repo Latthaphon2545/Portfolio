@@ -14,7 +14,7 @@ export const Work = () => {
     <section id="work">
       <div className="workContainer">
       <a className="worktitle">
-        <span>My Portffolio</span>
+        <span>My Projects</span>
       </a>
       <p className="worksubtitle">
         Crafting immersive digital experiences with a touch of creativity and
