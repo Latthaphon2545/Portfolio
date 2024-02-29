@@ -7,7 +7,7 @@ import Socket from "../../assets/soc.png";
 import Course from "../../assets/course.png";
 import food from "../../assets/food.png";
 import Covid from '../../assets/covid.png'
-import Slime from '../../assets/slime.png'
+import Slime from '../../assets/Slime.png'
 import { Link } from 'react-router-dom';
 
 export const Work = () => {
