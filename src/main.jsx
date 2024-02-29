@@ -16,6 +16,7 @@ import CovidWar from './components/project/CovidWar.jsx'
 import ReloadRocket from './components/project/ReloadRocket.jsx'
 import CourseRegistration from './components/project/CourseRegistration.jsx'
 import Food from './components/project/food.jsx'
+import Slime from './components/project/Slime.jsx'
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "/project/OnlineFoodOrdering",
     element: <Food />,
+  },
+  {
+    path: "/project/Slime",
+    element: <Slime />,
   },
 ]);
 

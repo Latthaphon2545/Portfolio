@@ -7,6 +7,7 @@ import Socket from "../../assets/soc.png";
 import Course from "../../assets/course.png";
 import food from "../../assets/food.png";
 import Covid from '../../assets/covid.png'
+import Slime from '../../assets/slime.png'
 import { Link } from 'react-router-dom';
 
 export const Work = () => {
@@ -22,6 +23,14 @@ export const Work = () => {
       </p>
 
       <div className="works">
+
+          <Link to="/project/Slime" className="work">
+            <img src={Slime}></img>
+            <div className="workdetail">
+              <h3>Slime</h3>
+              <p>Unity</p>
+            </div>
+          </Link>
 
         <Link to="/project/AfterShcool" className="work">
             <img src={As}></img>
