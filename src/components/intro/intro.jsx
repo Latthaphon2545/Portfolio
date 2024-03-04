@@ -9,11 +9,11 @@ export const Intro = () => {
       <h1>
         Hi, I'm <span className="introSpan">GAME</span>
       </h1>
-      <h2>Game Developer</h2>
-      <p>
+      <h2>Developer</h2>
+      {/* <p>
         Excited to apply my game development skills in a vibrant role, crafting
         top-notch gaming experiences.
-      </p>
+      </p> */}
       <div className="introImageContainer">
         <img src={Profile} alt="proffile" className="bg" />
       </div>
