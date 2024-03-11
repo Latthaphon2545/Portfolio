@@ -30,7 +30,7 @@ export const Project1 = () => {
             <button>Document</button>
           </a>
           <a href="https://github.com/Latthaphon2545/oop-proj22-6256.git">
-            <button>Game</button>
+            <button>GitHub</button>
           </a>
         </ul>
       </div>
