@@ -26,10 +26,16 @@ export const Project1 = () => {
       </div>
       <div className="detail">
         <ul>
-          <a href="https://www.canva.com/design/DAFRWkijjlE/IeaUaIDFIR59JbHbcF_jXQ/edit?utm_content=DAFRWkijjlE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+          <a
+            href="https://www.canva.com/design/DAFRWkijjlE/IeaUaIDFIR59JbHbcF_jXQ/edit?utm_content=DAFRWkijjlE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target="_blank"
+          >
             <button>Document</button>
           </a>
-          <a href="https://github.com/Latthaphon2545/oop-proj22-6256.git">
+          <a
+            href="https://github.com/Latthaphon2545/oop-proj22-6256.git"
+            target="_blank"
+          >
             <button>GitHub</button>
           </a>
         </ul>

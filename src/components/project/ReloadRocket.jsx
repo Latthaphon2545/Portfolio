@@ -4,7 +4,7 @@ import soc from '../../assets/soc.png'
 export const ReloadRocket = () => {
   document.title = "Reload Rocket"
   return (
-    <div className='Project'>
+    <div className="Project">
       <a className="ProjectTitle">
         <span>Reload Rocket</span>
       </a>
@@ -20,12 +20,22 @@ export const ReloadRocket = () => {
       </div>
       <div className="detail">
         <ul>
-          <a href='https://www.canva.com/design/DAFyL2ZkY2w/vIlpWp9G07UATH764oPJPA/edit?utm_content=DAFyL2ZkY2w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'><button>Document</button></a>
-          <a href='https://www.figma.com/file/a3P3rmpvwAYY3DpNcBc8w0/Final_Group3-Game_top-up?type=design&t=NKGlb9RmCD8cB1m0-6'><button>Prototype</button></a>
+          <a
+            href="https://www.canva.com/design/DAFyL2ZkY2w/vIlpWp9G07UATH764oPJPA/edit?utm_content=DAFyL2ZkY2w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target="_blank"
+          >
+            <button>Document</button>
+          </a>
+          <a
+            href="https://www.figma.com/file/a3P3rmpvwAYY3DpNcBc8w0/Final_Group3-Game_top-up?type=design&t=NKGlb9RmCD8cB1m0-6"
+            target="_blank"
+          >
+            <button>Prototype</button>
+          </a>
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
 export default ReloadRocket

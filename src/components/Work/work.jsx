@@ -8,6 +8,7 @@ import Course from "../../assets/course.png";
 import food from "../../assets/food.png";
 import Covid from "../../assets/covid.png";
 import Slime from "../../assets/Slime.png";
+import Book from "../../assets/book.png";
 import { Link } from "react-router-dom";
 
 export const Work = () => {
@@ -23,13 +24,13 @@ export const Work = () => {
         </p>
 
         <div className="works">
-          {/* <Link to="/project/Slime" className="work">
-            <img src={Slime}></img>
+          <Link to="/project/bookingApp" className="work">
+            <img src={Book}></img>
             <div className="workdetail">
-              <h3>Slime</h3>
-              <p>Unity</p>
+              <h3>Queue Booking App</h3>
+              <p>Flutter</p>
             </div>
-          </Link> */}
+          </Link>
 
           <Link to="/project/AfterShcool" className="work">
             <img src={As}></img>

@@ -5,19 +5,21 @@ import Covid from '../../assets/video/covid.mp4'
 export const Project1 = () => {
   document.title = "Covid19War"
   return (
-    <div className='Project'>
+    <div className="Project">
       <a className="ProjectTitle">
         <span>Covid19War</span>
       </a>
       <h2>Python</h2>
       <div className="des">
         <video controls>
-          <source src={Covid} type="video/mp4"/>
+          <source src={Covid} type="video/mp4" />
         </video>
-        <p>Covid19War is an engaging 2D shooter game developed using the Pygame library. 
-          Players control a character tasked with defeating COVID-19 viruses and confronting 
-          formidable bosses. The game incorporates power-up items, a scoring system, immersive sound effects, 
-          and progressive difficulty for an enjoyable gaming experience.
+        <p>
+          Covid19War is an engaging 2D shooter game developed using the Pygame
+          library. Players control a character tasked with defeating COVID-19
+          viruses and confronting formidable bosses. The game incorporates
+          power-up items, a scoring system, immersive sound effects, and
+          progressive difficulty for an enjoyable gaming experience.
         </p>
       </div>
       <br></br>
@@ -27,11 +29,16 @@ export const Project1 = () => {
       </div>
       <div className="detail">
         <ul>
-          <a href='https://github.com/Latthaphon2545/Covid19.git'><button>Game</button></a>
+          <a
+            href="https://github.com/Latthaphon2545/Covid19.git"
+            target="_blank"
+          >
+            <button>Game</button>
+          </a>
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
 export default Project1

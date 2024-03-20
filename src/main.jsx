@@ -17,11 +17,16 @@ import ReloadRocket from './components/project/ReloadRocket.jsx'
 import CourseRegistration from './components/project/CourseRegistration.jsx'
 import Food from './components/project/food.jsx'
 import Slime from './components/project/Slime.jsx'
+import BookingApp from "./components/project/bookingApp.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/project/bookingApp",
+    element: <BookingApp />,
   },
   {
     path: "/project/AfterShcool",
